@@ -1,0 +1,11 @@
+<resources>
+    <string name="app_name">easycake</string>
+    <string name="r1c1">Row 1 Column1</string>
+    <string name="r1c2">Row 1 Column2</string>
+    <string name="r2c1">Row 2 Column1</string>
+    <string name="r2c2">Row 2 Column2</string>
+
+    <string name="title_fragment1">This is fragment 1</string>
+    <string name="title_fragment2">This is fragment 2</string>
+    <string name="title_fragment_list">This is fragment for list</string>
+</resources>

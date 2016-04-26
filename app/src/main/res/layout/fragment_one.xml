@@ -1,0 +1,25 @@
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    tools:context="com.example.oster.easycake.FragmentOne">
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="@string/title_fragment1" />
+
+    <Button
+        android:id="@+id/btnToAct3"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="To Act 3 interation"/>
+
+    <Button
+        android:id="@+id/btnToAct3Clear"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Clean to Act 3"/>
+
+</LinearLayout>

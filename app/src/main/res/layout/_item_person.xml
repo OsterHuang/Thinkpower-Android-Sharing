@@ -1,0 +1,28 @@
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    tools:context="com.example.oster.easycake.FragmentOne">
+
+    <TextView
+        android:id="@+id/txtPersonName"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="User Name" />
+
+    <TextView
+        android:id="@+id/txtPersonAge"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentRight="true"
+        android:text="User Age" />
+
+    <TextView
+        android:id="@+id/txtPersonCareer"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/txtPersonName"
+        android:text="User Career" />
+
+</RelativeLayout>
